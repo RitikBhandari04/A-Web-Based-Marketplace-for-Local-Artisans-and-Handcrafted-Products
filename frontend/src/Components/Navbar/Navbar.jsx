@@ -21,19 +21,19 @@ export const Navbar = () => {
           {menu==="shop" ? <hr/> : null}
         </li>
 
-        <li onClick={()=>{setMenu("pottery")}}>
-          <Link style={{textDecoration:'none'}} to='/pottery'>Pottery</Link>
-          {menu==="pottery" ? <hr/> : null}
+        <li onClick={()=>{setMenu("homedecor")}}>
+          <Link style={{textDecoration:'none'}} to='/homedecor'>Home Decor</Link>
+          {menu==="homedecor" ? <hr/> : null}
         </li>
 
-        <li onClick={()=>{setMenu("textiles")}}>
-          <Link style={{textDecoration:'none'}} to='/textiles'>Textiles</Link>
-          {menu==="textiles" ? <hr/> : null}
+        <li onClick={()=>{setMenu("art")}}>
+          <Link style={{textDecoration:'none'}} to='/art'>Art</Link>
+          {menu==="art" ? <hr/> : null}
         </li>
 
-        <li onClick={()=>{setMenu("painting")}}>
-          <Link style={{textDecoration:'none'}} to='/painting'>Painting</Link>
-          {menu==="painting" ? <hr/> : null}
+        <li onClick={()=>{setMenu("fashion")}}>
+          <Link style={{textDecoration:'none'}} to='/fashion'>Fashion</Link>
+          {menu==="fashion" ? <hr/> : null}
         </li>
       </ul>
 
