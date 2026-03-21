@@ -44,6 +44,8 @@ let all_product = [
     image: p1_img,
     new_price: 450,
     old_price: 700,
+    description: "Eco-friendly handwoven bamboo basket ideal for storage and decor.",
+    tags: ["bamboo", "eco-friendly", "handmade", "storage"]
   },
   {
     id: 2,
@@ -52,6 +54,8 @@ let all_product = [
     image: p2_img,
     new_price: 650,
     old_price: 900,
+    description: "Traditional terracotta vase perfect for flowers and home styling.",
+    tags: ["terracotta", "vase", "clay", "decor"]
   },
   {
     id: 3,
@@ -60,6 +64,8 @@ let all_product = [
     image: p3_img,
     new_price: 1200,
     old_price: 1600,
+    description: "Beautifully carved wooden elephant symbolizing strength and luck.",
+    tags: ["wooden", "elephant", "carved", "decor"]
   },
   {
     id: 4,
@@ -68,6 +74,8 @@ let all_product = [
     image: p4_img,
     new_price: 850,
     old_price: 1200,
+    description: "Stylish handmade macrame wall hanging for modern interiors.",
+    tags: ["macrame", "wall", "decor", "handmade"]
   },
   {
     id: 5,
@@ -76,6 +84,8 @@ let all_product = [
     image: p5_img,
     new_price: 550,
     old_price: 800,
+    description: "Traditional block printed cushion covers with vibrant patterns.",
+    tags: ["cushion", "block print", "fabric", "decor"]
   },
   {
     id: 6,
@@ -84,6 +94,8 @@ let all_product = [
     image: p6_img,
     new_price: 750,
     old_price: 1100,
+    description: "Elegant brass diya set perfect for festive and spiritual decor.",
+    tags: ["brass", "diya", "festival", "traditional"]
   },
   {
     id: 7,
@@ -92,6 +104,8 @@ let all_product = [
     image: p7_img,
     new_price: 600,
     old_price: 900,
+    description: "Set of handcrafted clay pots ideal for decorative purposes.",
+    tags: ["clay", "pots", "decor", "handmade"]
   },
   {
     id: 8,
@@ -100,6 +114,8 @@ let all_product = [
     image: p8_img,
     new_price: 500,
     old_price: 750,
+    description: "Rustic wooden photo frame to showcase your memories.",
+    tags: ["frame", "wood", "photo", "decor"]
   },
   {
     id: 9,
@@ -108,6 +124,8 @@ let all_product = [
     image: p9_img,
     new_price: 950,
     old_price: 1300,
+    description: "Vintage-style lantern adding warm ambiance to your home.",
+    tags: ["lantern", "light", "decor", "traditional"]
   },
   {
     id: 10,
@@ -116,6 +134,8 @@ let all_product = [
     image: p10_img,
     new_price: 1100,
     old_price: 1500,
+    description: "Durable and eco-friendly jute mat for everyday use.",
+    tags: ["jute", "mat", "floor", "eco"]
   },
   {
     id: 11,
@@ -124,6 +144,8 @@ let all_product = [
     image: p11_img,
     new_price: 1400,
     old_price: 1800,
+    description: "Unique tribal mask showcasing traditional craftsmanship.",
+    tags: ["tribal", "mask", "wall decor"]
   },
   {
     id: 12,
@@ -132,9 +154,10 @@ let all_product = [
     image: p12_img,
     new_price: 1600,
     old_price: 2200,
+    description: "Elegant wooden wall clock combining style and functionality.",
+    tags: ["clock", "wood", "wall", "decor"]
   },
 
-  // 🎨 ART (13–24)
   {
     id: 13,
     name: "Madhubani Painting Frame",
@@ -142,6 +165,8 @@ let all_product = [
     image: p13_img,
     new_price: 1800,
     old_price: 2500,
+    description: "Authentic Madhubani artwork with intricate detailing.",
+    tags: ["madhubani", "painting", "art"]
   },
   {
     id: 14,
@@ -150,6 +175,8 @@ let all_product = [
     image: p14_img,
     new_price: 1500,
     old_price: 2100,
+    description: "Minimalistic Warli art reflecting tribal life and culture.",
+    tags: ["warli", "tribal", "canvas"]
   },
   {
     id: 15,
@@ -158,6 +185,8 @@ let all_product = [
     image: p15_img,
     new_price: 2200,
     old_price: 3000,
+    description: "Detailed Pattachitra painting inspired by mythology.",
+    tags: ["pattachitra", "traditional", "art"]
   },
   {
     id: 16,
@@ -166,6 +195,8 @@ let all_product = [
     image: p16_img,
     new_price: 2000,
     old_price: 2800,
+    description: "Classic miniature art showcasing royal Rajasthani culture.",
+    tags: ["rajasthani", "miniature", "painting"]
   },
   {
     id: 17,
@@ -174,6 +205,8 @@ let all_product = [
     image: p17_img,
     new_price: 1700,
     old_price: 2300,
+    description: "Modern hand-painted canvas to enhance your interiors.",
+    tags: ["canvas", "painting", "modern"]
   },
   {
     id: 18,
@@ -182,6 +215,8 @@ let all_product = [
     image: p18_img,
     new_price: 1300,
     old_price: 1800,
+    description: "Creative abstract wall art for contemporary homes.",
+    tags: ["abstract", "wall art"]
   },
   {
     id: 19,
@@ -190,6 +225,8 @@ let all_product = [
     image: p19_img,
     new_price: 1600,
     old_price: 2100,
+    description: "Traditional folk art frame with vibrant colors.",
+    tags: ["folk", "art", "frame"]
   },
   {
     id: 20,
@@ -198,6 +235,8 @@ let all_product = [
     image: p20_img,
     new_price: 900,
     old_price: 1400,
+    description: "Elegant calligraphy artwork for aesthetic appeal.",
+    tags: ["calligraphy", "art"]
   },
   {
     id: 21,
@@ -206,6 +245,8 @@ let all_product = [
     image: p21_img,
     new_price: 950,
     old_price: 1300,
+    description: "Handcrafted blue pottery plate with intricate designs.",
+    tags: ["pottery", "blue", "decor"]
   },
   {
     id: 22,
@@ -214,6 +255,8 @@ let all_product = [
     image: p22_img,
     new_price: 1400,
     old_price: 1900,
+    description: "Beautiful tribal painting panel for wall decoration.",
+    tags: ["tribal", "panel", "wall"]
   },
   {
     id: 23,
@@ -222,6 +265,8 @@ let all_product = [
     image: p23_img,
     new_price: 2100,
     old_price: 2800,
+    description: "Handmade portrait artwork crafted with precision.",
+    tags: ["portrait", "canvas"]
   },
   {
     id: 24,
@@ -230,9 +275,10 @@ let all_product = [
     image: p24_img,
     new_price: 1900,
     old_price: 2600,
+    description: "Scroll painting depicting Indian heritage themes.",
+    tags: ["scroll", "indian", "art"]
   },
 
-  // 👜 FASHION & UTILITY (25–36)
   {
     id: 25,
     name: "Handloom Cotton Dupatta",
@@ -240,6 +286,8 @@ let all_product = [
     image: p25_img,
     new_price: 700,
     old_price: 1050,
+    description: "Soft handloom cotton dupatta with traditional design.",
+    tags: ["dupatta", "cotton", "fashion"]
   },
   {
     id: 26,
@@ -248,6 +296,8 @@ let all_product = [
     image: p26_img,
     new_price: 350,
     old_price: 600,
+    description: "Eco-friendly jute bag perfect for everyday shopping.",
+    tags: ["jute", "bag", "eco"]
   },
   {
     id: 27,
@@ -256,6 +306,8 @@ let all_product = [
     image: p27_img,
     new_price: 900,
     old_price: 1300,
+    description: "Premium leather wallet with durable craftsmanship.",
+    tags: ["leather", "wallet"]
   },
   {
     id: 28,
@@ -264,6 +316,8 @@ let all_product = [
     image: p28_img,
     new_price: 800,
     old_price: 1200,
+    description: "Stylish embroidered sling bag for casual outings.",
+    tags: ["sling", "embroidered"]
   },
   {
     id: 29,
@@ -272,6 +326,8 @@ let all_product = [
     image: p29_img,
     new_price: 500,
     old_price: 800,
+    description: "Colorful handmade beaded necklace for trendy looks.",
+    tags: ["necklace", "beads"]
   },
   {
     id: 30,
@@ -280,6 +336,8 @@ let all_product = [
     image: p30_img,
     new_price: 500,
     old_price: 750,
+    description: "Traditional clay kulhad cups for authentic tea experience.",
+    tags: ["kulhad", "tea", "clay"]
   },
   {
     id: 31,
@@ -288,6 +346,8 @@ let all_product = [
     image: p31_img,
     new_price: 400,
     old_price: 650,
+    description: "Eco-friendly wooden spoons for everyday cooking.",
+    tags: ["spoons", "wood"]
   },
   {
     id: 32,
@@ -296,6 +356,8 @@ let all_product = [
     image: p32_img,
     new_price: 1200,
     old_price: 1700,
+    description: "Elegant brass serving bowl for dining occasions.",
+    tags: ["brass", "bowl"]
   },
   {
     id: 33,
@@ -304,6 +366,8 @@ let all_product = [
     image: p33_img,
     new_price: 850,
     old_price: 1200,
+    description: "Vintage leather journal for writing and sketching.",
+    tags: ["journal", "leather"]
   },
   {
     id: 34,
@@ -312,6 +376,8 @@ let all_product = [
     image: p34_img,
     new_price: 450,
     old_price: 700,
+    description: "Eco-friendly notebook made from recycled paper.",
+    tags: ["notebook", "eco"]
   },
   {
     id: 35,
@@ -320,6 +386,8 @@ let all_product = [
     image: p35_img,
     new_price: 600,
     old_price: 900,
+    description: "Wooden pen stand to organize your desk neatly.",
+    tags: ["pen stand", "wood"]
   },
   {
     id: 36,
@@ -328,7 +396,9 @@ let all_product = [
     image: p36_img,
     new_price: 300,
     old_price: 500,
-  },
+    description: "Set of artistic bookmarks for book lovers.",
+    tags: ["bookmark", "handmade"]
+  }
 ];
 
 export default all_product;

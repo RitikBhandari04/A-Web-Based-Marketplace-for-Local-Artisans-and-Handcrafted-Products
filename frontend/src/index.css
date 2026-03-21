@@ -6,3 +6,6 @@ body{
   padding: 0;
   font-family: 'poppins';
 }
+html {
+  scroll-behavior: smooth;
+}
