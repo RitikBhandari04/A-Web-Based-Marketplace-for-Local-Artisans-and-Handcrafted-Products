@@ -8,13 +8,14 @@ const path = require("path");
 const cors = require("cors")
 const dns = require("dns");
 app.use(express.json());
-
+require('dotenv').config();
 dns.setServers(["1.1.1.1","8.8.8.8"]);
 
 app.use(cors());
 
 //DataBase connection with MongoDb
-mongoose.connect("mongodb+srv://fswdproject:Ritik123@cluster0.u1uxdus.mongodb.net/e-commerce")
+mongoose.connect(process.env.MONGO_URI).then(()=>{console.log("mongo connected")}).catch(()=>{console.log("error detected");
+});
 
 //API creation
 
