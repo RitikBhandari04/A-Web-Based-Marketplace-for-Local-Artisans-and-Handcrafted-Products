@@ -66,10 +66,11 @@ const ProductDisplay = (props) => {
                 </p>
 
                 <p className='productdisplay-right-category'>
-                    <span>Tags :</span> {product.tags.map((tag, index) => (
-      <span key={index} >{tag} </span>
-    ))}
-                </p>
+                <span>Tags :</span>
+                {product.tags?.map((tag, index) => (
+                    <span key={index}>{tag} </span>
+                ))}
+            </p>
             </div>
         </div>
     )
